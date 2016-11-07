@@ -1,0 +1,12 @@
+/public/
+/temp
+/lib
+*.log
+.idea
+.DS_Store
+.vagrant
+/dist/
+/config/local.json
+/coverage/
+/node_modules
+/typings

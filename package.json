@@ -1,0 +1,33 @@
+{
+  "name": "focsle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "WEBPACK_ENV=dev webpack --progress --colors --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weezychipmunk/focsle.git"
+  },
+  "author": "Chris Bohnert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weezychipmunk/focsle/issues"
+  },
+  "homepage": "https://github.com/weezychipmunk/focsle#readme",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "browser-sync": "^2.17.5",
+    "browser-sync-webpack-plugin": "^1.1.3",
+    "eslint": "^3.9.1",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-babel": "^3.3.0",
+    "install": "^0.8.2",
+    "npm": "^3.10.9",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
