@@ -19,15 +19,24 @@
   "homepage": "https://github.com/weezychipmunk/focsle#readme",
   "devDependencies": {
     "babel-core": "^6.18.2",
+    "babel-eslint": "^6.1.2",
     "babel-loader": "^6.2.7",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-preset-stage-1": "^6.16.0",
     "browser-sync": "^2.17.5",
     "browser-sync-webpack-plugin": "^1.1.3",
-    "eslint": "^3.9.1",
+    "eslint": "^2.13.1",
     "eslint-loader": "^1.6.1",
     "eslint-plugin-babel": "^3.3.0",
     "install": "^0.8.2",
     "npm": "^3.10.9",
     "webpack": "^1.13.3",
     "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.18.0",
+    "needlepoint": "^1.0.5",
+    "quadtree2": "^0.6.0"
   }
 }

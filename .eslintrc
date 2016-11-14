@@ -4,6 +4,7 @@
         "jsx": true,
         "modules": true
     },
+    "parser": "babel-eslint",
     "env": {
         "browser": true,
         "es6": true,
@@ -20,6 +21,9 @@
         "it": true,
         "expect": true,
         "sinon": true
+    },
+    "parserOptions": {
+        "sourceType": "module"
     },
     "plugins": [],
     "rules": {
